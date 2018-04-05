@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -23,7 +24,8 @@
     <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />    
     <!-- GOOGLE FONT -->
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- GOOGLE PICTURE OF GROUP -->
 </head>
 <body >
     
@@ -33,13 +35,28 @@
    <section id="pp_full_res">
        
    <div class="container" style="text-align:center">
-    
-      
-       <h4>Anthony Rodrigues:</h4><p>  ... </p>
-       <h4>Felipe Lima:</h4><p> .</p>
-       <h4>Pedro:</h4><p> ...</p>
-       <h4>Gama:</h4><p> ...</p>
-   </div>
+        
+    <div  class="w3-quarter">
+       <img src="assets/img/group/pp.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
+       <h3>Felipe Lima</h3>
+       <p>Web Designer</p>
+    </div>
+           <div  class="w3-quarter">
+       <img src="assets/img/group/pp.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
+       <h3>Pedro </h3>
+       <p>Web Designer</p>
+    </div>
+           <div  class="w3-quarter">
+       <img src="assets/img/group/Paulo Gama.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
+       <h3>Paulo Gama</h3>
+       <p>Web Designer</p>
+    </div>
+           <div  class="w3-quarter">
+       <img src="assets/img/group/anthony (1).jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
+       <h3>Anthony Rodrigues</h3>
+       <p>Web Designer</p>
+    </div>
+   </div>  
    </section>
    <hr/>
     <!--/.INTRO END-->
