@@ -43,12 +43,12 @@
     </div>
            <div  class="w3-quarter">
        <img src="assets/img/group/pp.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
-       <h3>Pedro </h3>
+       <h3>Pedro Patrinieri </h3>
        <p>Web Designer</p>
     </div>
            <div  class="w3-quarter">
-       <img src="assets/img/group/Paulo Gama.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
-       <h3>Paulo Gama</h3>
+       <img src="assets/img/group/pp_1.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
+       <h3>Paulo Henrique</h3>
        <p>Web Designer</p>
     </div>
            <div  class="w3-quarter">
@@ -80,14 +80,13 @@
                  <i class="fa fa-plus  fa-4x"></i>
                             <h4> <strong>Tabela PRICE</strong> </h4>
                             <br/>
-                            <p>
-                                Tabela Price, também chamado de sistema francês 
+                             <p>
+                                 Tabela Price, também chamado de sistema francês 
                                 de amortização, é um método usado em amortização
                                 de empréstimo cuja principal característica é 
                                 apresentar prestações (ou parcelas) iguais.
                             </p>
-                          
-                           <a href="tabela-price.jsp" class="btn btn-primary" >Ir</a>
+                          <a href="tabela-price.jsp" class="btn btn-primary" >Ir</a>
                 </div>
             <div class="col-md-4  col-sm-4">
                   <i class="fa fa-plus  fa-4x"></i>
