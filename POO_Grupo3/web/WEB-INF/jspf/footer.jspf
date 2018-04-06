@@ -2,7 +2,7 @@
 <%@ page pageEncoding="UTF-8" %>
 
     <section id="footer-sec">
-            <div class="container">
+            <div class="w3-container">
            <div class="row  pad-bottom" > 
             <div class="col-md-4">
                 
@@ -35,7 +35,21 @@
             </div>
     </section>
 
-<title>Sistemas de Amortização</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    
+    <title>Sistemas de Amortização</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLE CSS -->
