@@ -39,17 +39,17 @@
     <div  class="w3-quarter">
        <img src="assets/img/group/pp.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
        <h3>Felipe Lima</h3>
-       <p>Web Designer</p>
+       <p>Responsável pelas páginas de Menu, Rodapé e Home.</p>
     </div>
            <div  class="w3-quarter">
-       <img src="assets/img/group/pp.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
+       <img src="assets/img/group/pedro.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
        <h3>Pedro Patrinieri </h3>
        <p>Web Designer</p>
     </div>
            <div  class="w3-quarter">
        <img src="assets/img/group/pp_1.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
        <h3>Paulo Henrique</h3>
-       <p>Web Designer</p>
+       <p>Responsável pelas páginas de Amortização Constante e Tabela Price.</p>
     </div>
            <div  class="w3-quarter">
        <img src="assets/img/group/anthony (1).jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
@@ -78,8 +78,7 @@
                 </div>
              <div class="col-md-4  col-sm-4">
                  <i class="fa fa-plus  fa-4x"></i>
-                            <h4> <strong>Tabela PRICE</strong> </h4>
-                            <br/>
+                            <h4> <strong>Tabela PRICE</strong></h4>
                              <p>
                                  Tabela Price, também chamado de sistema francês 
                                 de amortização, é um método usado em amortização

@@ -13,6 +13,12 @@
         <title>Amortização Constante</title>
     </head>
     <body>
+        <section id="pp_full_res">
+             <!-- Manter cada coisa no seu lugar -->
+       
+
+        
+        
         <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>Amortização Constante</h1>
         <% int k = 0;
@@ -95,6 +101,9 @@
                 </tr>
             </table>
             <%}%>
-            <%@include file="WEB-INF/jspf/footer.jspf"%>
+                <%@include file="WEB-INF/jspf/footer.jspf"%>
+    </select>
+    </div>
     </body>
+
 </html>

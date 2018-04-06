@@ -18,8 +18,22 @@
                      <li><a href="tabela-price.jsp">Tabela Price</a></li>
                     <li><a href="sobreNos.jsp">Sobre Nós</a></li> 
                     
+                    
                 </ul>
             </div>
            
         </div> 
     </div><br/><br/>
+    
+    <title>Sistemas de Amortização</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />    
+    <!-- GOOGLE FONT -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- GOOGLE PICTURE OF GROUP -->
+    
+    
