@@ -22,6 +22,7 @@
         <% int i = 0;
            double pmt = 0, j = 0, a = 0, pv, v = 0, tx = 0;
         %>
+        <div class="container" style="padding-bottom: 100px; padding-top: 100px; margin: 0 auto;">
             <form>
                 <table>
                     <tr>
@@ -91,6 +92,8 @@
                 <%}%>
             </table>
             <%}%>
+            </div>
+            </div>
             <%@include file="WEB-INF/jspf/footer.jspf"%>
                  </section>
     </body>
