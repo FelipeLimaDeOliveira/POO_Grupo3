@@ -13,7 +13,7 @@
         <title>Amortização Constante</title>
     </head>
     <body>
-        <section id="pp_full_res">
+         <section id="just-intro">
              <!-- Manter cada coisa no seu lugar -->
        
 
@@ -102,8 +102,9 @@
             </table>
             <%}%>
                 <%@include file="WEB-INF/jspf/footer.jspf"%>
-    </select>
+
     </div>
+         </selection>     
     </body>
 
 </html>

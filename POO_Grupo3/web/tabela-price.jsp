@@ -13,6 +13,10 @@
         <title>Tabela Price</title>
     </head>
     <body>
+                 <section id="just-intro">
+             <!-- Manter cada coisa no seu lugar -->
+       
+
         <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>Tabela Price</h1>
         <% int i = 0;
@@ -88,5 +92,6 @@
             </table>
             <%}%>
             <%@include file="WEB-INF/jspf/footer.jspf"%>
+                 </section>
     </body>
 </html>
