@@ -68,24 +68,7 @@
                                 <th>Juros (R$)</th>     
                             </tr>
                             <%for (int i = 0; i <= periodo; i++) {%>
-                            <tr>
-                                <td><%=i%></td>
-                                <%if (i == periodo) {
-                                        out.println("<td>" + cvalor.format(0) + "</td>");
-                                    } else {
-                                        out.println("<td>" + cvalor.format(valor) + "</td>");
-                                    }%>
-                                <%if (i == periodo) {
-                                        out.println("<td>" + cvalor.format(valor) + "</td>");
-                                    } else {
-                                        out.println("<td>" + cvalor.format(0) + "</td>");
-                                    }%>
-                                <%if (i != 0) {
-                                        out.println("<td>" + cjuros.format(valor * juros * 0.01) + "</td>");
-                                    } else {
-                                        out.println("<td>" + cjuros.format(0) + "</td>");
-                                    }%>                
-                            </tr>
+                            
                            
                             <%}%>
                         </table>
