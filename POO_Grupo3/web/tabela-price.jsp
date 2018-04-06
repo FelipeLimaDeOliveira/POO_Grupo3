@@ -15,7 +15,7 @@
     <body>
         <h1>Tabela Price</h1>
         <% int i = 0;
-           double pmt = 0, j = 0, a, pv, v = 0, tx = 0, acJ = 0, acR = 0;
+           double pmt = 0, j = 0, a = 0, pv, v = 0, tx = 0;
         %>
             <form>
                 <table>
@@ -48,7 +48,6 @@
                 pv = v;
                 pmt = v*(tx/(1-(1/(Math.pow((1+tx), i)))));
                 DecimalFormat df = new DecimalFormat("###,##0.00");
-                a = pmt;
             %>
             <%if(i!=0 && v!=0 && tx!=0){%>
             <table border="1">
@@ -85,9 +84,6 @@
                     </td>
                 </tr>
                 <%}%>
-                <%--<tr>
-                    <th>Total</th><td><%=df.format(acR)%></td><td><%=df.format(acJ)%></td><td><%=v%></td><td>-</td>
-                </tr>--%>
             </table>
             <%}%>
     </body>
