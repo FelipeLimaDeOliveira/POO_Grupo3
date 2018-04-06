@@ -13,6 +13,7 @@
         <title>Tabela Price</title>
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>Tabela Price</h1>
         <% int i = 0;
            double pmt = 0, j = 0, a = 0, pv, v = 0, tx = 0;
@@ -86,5 +87,6 @@
                 <%}%>
             </table>
             <%}%>
+            <%@include file="WEB-INF/jspf/footer.jspf"%>
     </body>
 </html>

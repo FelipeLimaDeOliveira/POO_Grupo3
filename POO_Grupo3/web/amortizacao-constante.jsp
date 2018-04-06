@@ -13,6 +13,7 @@
         <title>Amortização Constante</title>
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>Amortização Constante</h1>
         <% int k = 0;
            double r = 0, j = 0, a, sd, v = 0, tx = 0, acJ = 0, acR = 0;
@@ -94,5 +95,6 @@
                 </tr>
             </table>
             <%}%>
+            <%@include file="WEB-INF/jspf/footer.jspf"%>
     </body>
 </html>
