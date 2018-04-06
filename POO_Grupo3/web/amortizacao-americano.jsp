@@ -65,8 +65,7 @@
                                 <th>Mês</th>
                                 <th>Saldo Devedor (R$)</th>
                                 <th>Amortização (R$)</th>
-                                <th>Juros (R$)</th>
-                                
+                                <th>Juros (R$)</th>     
                             </tr>
                             <%for (int i = 0; i <= periodo; i++) {%>
                             <tr>
@@ -87,7 +86,7 @@
                                         out.println("<td>" + cjuros.format(0) + "</td>");
                                     }%>                
                             </tr>
-                            
+                           
                             <%}%>
                         </table>
                         <br/><br/>
