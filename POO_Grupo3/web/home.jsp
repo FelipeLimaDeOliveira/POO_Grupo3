@@ -44,7 +44,7 @@
            <div  class="w3-quarter">
        <img src="assets/img/group/pedro.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
        <h3>Pedro Patrinieri </h3>
-       <p>Web Designer</p>
+       <p>Responsável por analisar e corrigir códigos desenvolvidos pela equipe.</p>
     </div>
            <div  class="w3-quarter">
        <img src="assets/img/group/pp_1.jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
@@ -54,7 +54,7 @@
            <div  class="w3-quarter">
        <img src="assets/img/group/anthony (1).jpg" alt="Error" style="width:25%" class="w3-circle w3-hover-opacity">
        <h3>Anthony Rodrigues</h3>
-       <p>Web Designer</p>
+       <p>Responsável pela página de Amortização Americana</p>
     </div>
    </div>  
    </section>
