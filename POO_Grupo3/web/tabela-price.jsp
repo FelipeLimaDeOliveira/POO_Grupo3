@@ -18,7 +18,9 @@
        
 
         <%@include file="WEB-INF/jspf/menu.jspf"%>
-        <h1>Tabela Price</h1>
+    <div class="container" style="align-content: center">
+            <h2>Tabela Price</h2>
+            <hr/>
         <% int i = 0;
            double pmt = 0, j = 0, a = 0, pv, v = 0, tx = 0;
         %>
@@ -34,7 +36,7 @@
                     <tr>
                         <td>Taxa de Juros:</td><td><input type="text" name="juros"/></td>
                     </tr>
-                    <tr><center><td colspan="2"><input type="submit" value="Enviar"/></td></center></tr>
+                    <tr><center><td colspan="2"><input type="submit" value="Calcular"/></td></center></tr>
                 </table>
             </form>
         <hr>
