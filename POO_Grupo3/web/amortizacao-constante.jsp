@@ -13,17 +13,17 @@
         <title>Amortização Constante</title>
     </head>
     <body>
-         <section id="just-intro">
-             <!-- Manter cada coisa no seu lugar -->
-       
-
-        
-        
+        <section id="just-intro" >
+             <!-- Manter cada coisa no seu lugar -->      
         <%@include file="WEB-INF/jspf/menu.jspf"%>
-        <h1>Amortização Constante</h1>
+        <div class="container" style="align-content: center">
+            <h2>Amortização Constante</h2>
+            <hr/>
+                        <div class="container" margin: 0>
         <% int k = 0;
            double r = 0, j = 0, a, sd, v = 0, tx = 0, acJ = 0, acR = 0;
         %>
+
             <form>
                 <table>
                     <tr>
@@ -35,7 +35,7 @@
                     <tr>
                         <td>Taxa de Juros:</td><td><input type="text" name="juros"/></td>
                     </tr>
-                    <tr><center><td colspan="2"><input type="submit" value="Enviar"/></td></center></tr>
+                    <tr><center><td colspan="2"><input type="submit" value="Calcular"/></td></center></tr>
                 </table>
             </form>
         <hr>
@@ -99,12 +99,14 @@
                 <tr>
                     <th>Total</th><td><%=df.format(acR)%></td><td><%=df.format(acJ)%></td><td><%=v%></td><td>-</td>
                 </tr>
+                
             </table>
+                
             <%}%>
+            </div>
+            </div>
                 <%@include file="WEB-INF/jspf/footer.jspf"%>
-
-    </div>
-         </selection>     
-    </body>
+                </section>
+               </body>
 
 </html>
