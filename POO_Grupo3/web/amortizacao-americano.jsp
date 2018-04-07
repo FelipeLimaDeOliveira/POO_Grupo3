@@ -9,17 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Sistema de Amortização Americano</title>
     </head>
+        <title>Sistema de Amortização Americano</title>
     <body>
+<section id="just-intro">
         <%@include file="WEB-INF/jspf/menu.jspf"%>
         <!--<h1>Amortização Americano</h1>-->
         <div class="container" style="align-content: center">
             <h2>Sistema de Amortização Americano</h2>
             <hr/>
 
-            <div class="container">
+            <div class="container" margin: 0>
                 <br/>
+                
                 <form class="form-horizontal">
                     <form>
                 <table>
@@ -102,6 +104,7 @@
         </div>
         <br/>
         <br/>
+</section>
         <%@include file="WEB-INF/jspf/footer.jspf"%>
     </body>
 </html>
